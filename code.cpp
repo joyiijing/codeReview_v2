@@ -1,3 +1,8 @@
+#include <iostream> 
+#include <cstdio>
+
+using namespace std;
+
 bool isWin(char game[3][3]){
 
       bool win = false;
@@ -82,7 +87,7 @@ int main(){
 
             }
 
-      if (n==9) // all celles with i=0 to 2 have been inputted above but no winner yet
+      if (i==3) // all celles with i=0 to 2 have been inputted above but no winner yet
 
          cout << "Tie!" << endl;
 
